@@ -8,6 +8,10 @@ source:
 
 requirements:
   build:
+    - {{ compiler('cxx') }}
+    - {{ compiler('c') }}
+    - {{ compiler('fortran') }}
+    - git
     - openmpi
     - cmake
     - make
