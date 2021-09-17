@@ -1,0 +1,13 @@
+package:
+  name: ga 
+  version: "1.0.0"
+
+source:
+  git_url: git@github.com:GlobalArrays/ga.git
+  git_tag: master
+
+requirements:
+  build:
+    - openmpi
+    - cmake
+    - make
